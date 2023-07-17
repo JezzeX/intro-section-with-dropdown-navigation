@@ -34,7 +34,7 @@ function App() {
           featuresIsOpen={featuresIsOpen}
           companyIsOpen={companyIsOpen}
         />
-        <div className="xl:flex xl:flex-row-reverse xl:gap-20  xl:w-[70rem] mx-auto">
+        <div className="lg:flex lg:flex-row-reverse lg:gap-20  lg:w-[70rem] mx-auto">
           <Image />
           <HeroDetails />
         </div>
@@ -135,9 +135,9 @@ function Navbar({
 }) {
   return (
     <nav>
-      <ul className="flex justify-between xl:justify-normal xl:gap-20 p-5 items-center w-full xl:px-10 text-mediumGray">
+      <ul className="flex justify-between lg:justify-normal lg:gap-20 p-5 items-center w-full lg:px-10 text-mediumGray">
         <li className="font-bold text-4xl text-almostBlack">snap</li>
-        <ul className="hidden xl:flex gap-10 items-center w-full">
+        <ul className="hidden lg:flex gap-10 items-center w-full">
           <li>
             <div
               onClick={() =>
@@ -201,17 +201,17 @@ function Navbar({
           </li>
           <li className="hover:text-almostBlack hover:cursor-pointer">About</li>
         </ul>
-        <div className="hidden xl:flex items-center gap-10">
+        <div className="hidden lg:flex items-center gap-10">
           <li>
             <button className="hover:text-almostBlack">login</button>
           </li>
           <li>
-            <button className="border hover:text-almostBlack hover:border-almostBlack border-mediumGray py-3 rounded-xl xl:px-6 xl:py-2 ">
+            <button className="border hover:text-almostBlack hover:border-almostBlack border-mediumGray py-3 rounded-xl lg:px-6 lg:py-2 ">
               Register
             </button>
           </li>
         </div>
-        <li className="xl:hidden">
+        <li className="lg:hidden">
           <img onClick={toggleMenu} src={menuIcon} alt="menuIcon" />
         </li>
       </ul>
@@ -222,11 +222,11 @@ function Navbar({
 function Image() {
   return (
     <>
-      <img src={heroImage} alt="hero image mobile" className="xl:hidden" />
+      <img src={heroImage} alt="hero image mobile" className="lg:hidden" />
       <img
         src={desktopHero}
         alt=""
-        className="hidden xl:block self-start w-1/2"
+        className="hidden lg:block self-start w-1/2"
       />
     </>
   );
@@ -234,11 +234,11 @@ function Image() {
 
 function HeroDetails() {
   return (
-    <section className="pt-10 xl:mt-32 flex flex-col gap-4 items-center justify-center xl:items-start xl:gap-14">
-      <h1 className="font-bold text-4xl text-center xl:text-left xl:text-7xl ">
+    <section className="pt-10 lg:mt-32 flex flex-col gap-4 items-center justify-center lg:items-start lg:gap-14">
+      <h1 className="font-bold text-4xl text-center lg:text-left lg:text-7xl ">
         Make remote work
       </h1>
-      <p className="text-center text-lg xl:text-left text-mediumGray">
+      <p className="text-center text-lg lg:text-left text-mediumGray">
         Get your team in sync, no matter your location. Streamline processes,
         create team rituals, and watch productivity soar
       </p>
@@ -247,7 +247,7 @@ function HeroDetails() {
         Learn more
       </button>
 
-      <ul className="pt-10 pb-20 px-5 gap-5 flex xl:pt-20 ">
+      <ul className="pt-10 pb-20 px-5 gap-5 flex lg:pt-20 ">
         <li>
           <img src={databizIcon} />
         </li>
