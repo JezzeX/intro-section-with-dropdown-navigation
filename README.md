@@ -28,6 +28,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 ### Useful resources
 
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
+- [React Documentation](https://react.dev/)
 
 ## Author
 
