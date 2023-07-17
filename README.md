@@ -16,7 +16,7 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
 
 ### Links
 
-- Live Site URL: [Qr Code Component](https://jezzex-qr-code-component.netlify.app/)
+- Live Site URL: [Intro section with dropdown navigation](https://jezzex-intro-section-with-dropdown.netlify.app/)
 
 ### Built with
 
